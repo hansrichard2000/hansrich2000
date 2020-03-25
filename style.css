@@ -1,0 +1,1195 @@
+/* untuk header, footer, dan seluruh page */
+header {
+    background-color: black;
+    color: white;
+    font-family:'Abril Fatface';
+    width: 100%;
+    height: 100;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: fixed;
+    z-index: 10;
+}
+.posisiLogo{
+    float: left;
+}
+.logo{
+    width:150px;
+    height:100px;
+}
+.posisihead1{
+    float: left;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.posisihead2{
+    float: right;
+    font-size: 1.2em;
+    font-weight:bold;
+    margin-right: 2%;
+}
+
+.nav1{
+    float: left;
+    margin: 15px 10px;
+    padding: 5px 10px 5px;
+}
+.nav1:hover{
+    color: honeydew;
+}
+.tuanRumah{
+    color: gold;
+}
+.pendatang{
+    color: white;
+}
+a{
+    color: gold;
+}
+a:hover{
+    color: goldenrod;
+}
+hr{
+    width: 100%;
+    height: 1.5%;
+    margin-top: 100px;
+    background-color: gold;
+    border-color: gold;
+    position: fixed;
+    z-index: 10;
+}
+.garisKedua{
+    display: none;
+    width: 100%;
+    height: 1.5%;
+    margin-top: 200px;
+    background-color: gold;
+    border-color: gold;
+    position: fixed;
+    z-index: 10;
+}
+footer{
+    top: 37em;
+    background-color: black;
+    color: gold;
+    width: 100%;
+    margin: 0px 0px 0px 0px ;
+    height: 20%;
+    position: relative;
+    float: left;
+}
+.inFooter{
+    text-align: center;
+    color: gold;
+}
+.topBtn{
+    color: gold;
+    border-color: gold;
+    position: relative;
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+    width: 5%;
+    font-size: 12pt;
+    z-index: 10;
+}
+.topBtn:hover{
+    color:black;
+    background-color: blanchedalmond;
+}
+.garisFooter{
+    width: 80%;
+    text-align: center;
+    height: 1px;
+    color: gold;
+    z-index: 9;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 10%;
+}
+.Copyright{
+    color: gold;
+    float: left;
+    margin-left: 10%;
+    background-color: black;
+}
+.gambarFooter{
+    width: 3%;
+    height: 25%;
+    float: right;
+    margin-top: 15px;
+    margin: 15px 10px;
+}
+.gambarFooter2{
+    width: 3%;
+    height: 25%;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10%;
+    margin-left: 10px;
+    background-color: honeydew;
+    border-radius: 10px;
+}
+
+.gambarFooter:hover{
+    color: darkgoldenrod;
+}
+.gambarFooter2:hover{
+    color: darkgoldenrod;
+}
+body{
+    margin: 0px;
+    
+}
+.divutama { 
+    width: 100%;
+    margin: auto;
+}
+
+.banner{
+    background-image: url('Personal web asset/background2.jpg');
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    background-color: gold;
+    width: 100%;
+    position: relative;
+    top: 37em;
+    float: left;
+}
+
+/* untuk halaman home */
+
+#opening{
+    color: gold;
+    font-family: 'Courgette';
+    font-size: 55px;
+    text-align: center;
+}
+#intro{
+    background-color : rgba(255, 255, 255, 0.637);
+    width: 70%;
+    height: 40%;
+    margin-left: 13%;
+    margin-top: 0px;
+    padding: 2%;
+}
+#formatGambarprof{
+    margin-left: 15%;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#gambarIntro{
+    width: 100%;
+    height: 100%;
+}
+#intro1{
+    background-color: black;
+    color: white;
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+#tulisanHans{
+    color: gold; 
+    font-size: 1.2em;
+}
+#profile{
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 80%;
+    z-index: 8;
+    color: gold;
+    font-family: Hepta Slab;
+    font-size: 1.8em;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 3px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+#gambarProfile{
+    width:20%;
+    height:40%;
+}
+
+#art1{
+    background-color: white;
+    font-family: Roboto;
+    color: black;
+    float: right;
+    font-size: 0.9em;
+    margin-right: 10%;
+    margin-top: 0px;
+    padding-right: 20px;
+    width: 63%;
+}
+.profilTambahan{
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 20px 40%;
+    float: left;
+    color: gold;
+    text-align: center;
+    width: 20%;
+    height: 40%;
+}
+
+.gambarCV{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+}
+/* untuk halaman CV */
+#intCV{
+    color: gold;
+    text-align: center;
+    font-family: 'Courgette';
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 22%;
+}
+#resume{
+    width: 80%;
+    height: 220%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#borderLeft{
+    width: 5%;
+    height: 101.5%;
+    float: left;
+    position: relative;
+    background-color: gold;
+    top: 36.5rem;
+}
+#borderUpLeft{
+    background-color: gold;
+    position: relative;
+    top: 36.5rem;
+    width: 30%;
+    height: 3.5%;
+    float: left;
+}
+#borderUpRight{
+    background-color: black;
+    position: relative;
+    top: 36.5rem;
+    width: 60%;
+    height: 3.5%;
+    float: left;
+}
+#borderRight{
+    width: 5%;
+    height: 101.5%;
+    float: left;
+    position: relative;
+    background-color: black;
+    top: 36.5rem;
+    margin-top: -4.7%;
+}
+#innerLeft{
+    background-color: black;
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 98%;
+    top: 36.5rem;
+}
+#innerRight{
+    background-color: gold;
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 98%;
+    top: 36.5rem;
+}
+#borderDownLeft{
+    background-color: gold;
+    position: relative;
+    top: 36.5rem;
+    width: 35%;
+    height: 3.5%;
+    float: left;
+    margin-bottom: 0.8rem;
+}
+#borderDownRight{
+    background-color: black;
+    position: relative;
+    top: 36.5rem;
+    width: 65%;
+    height: 3.5%;
+    float: left;
+    margin-bottom: 1.5rem;
+}
+#CVProfile{
+    border-radius: 50%;
+    width: 70%;
+    height: 15%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#CVName{
+    color: gold;
+    font-family: 'Libre Baskerville';
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+#subName{
+    color: gold;
+    font-family: Roboto;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.subProfile{
+    font-family: 'Libre Baskerville';
+    background-color: gold;
+    font-size: 1.2em;
+    padding: 5px 5px 5px 5px;
+    margin: 4rem 10px 10px 10px;
+    font-weight: bold;
+}
+.contentCVLeft{
+    font-family: 'Roboto';
+    color: gold;
+    font-size: 1.2em;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+}
+.subContentCV{
+    font-family: 'Libre Baskerville';
+    background-color: black;
+    color: gold;
+    font-size: 1.2em;
+    padding: 5px 5px 5px 5px;
+    margin: 30px 10px 20px 10px;
+    font-weight: bold;
+}
+.contentCVRight{
+    font-family: 'Roboto';
+    color: black;
+    font-size: 1.1em;
+    margin: 10px 10px 10px 10px;
+    font-weight: 600;
+}
+.contentCVRight p{
+    font-family: 'Libre Baskerville';
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* untuk halaman myinterest */
+#intOP{
+    color: gold;
+    text-align: center;
+    font-family: 'Rhodium Libre';
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 22%;
+}
+.contentInterest{
+    background-color: gold;
+    position: relative;
+    top: 36.5rem;
+    width: 100%;
+    height: 270%;
+    padding: 10px 10px 10px 20px;
+}
+.subTitleInt{
+    background-color: black;
+    width: 95%;
+    margin: 15px 15px 15px 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Hepta Slab';
+    font-size: 1.5em;
+    color: gold;
+}
+#sideGalleryInt{
+    width: 100%;
+    height: 100%;
+}
+.sideGalleryInt2{
+    float: left;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.gallery {
+    width: 25em;
+    margin: 2em auto;
+}
+
+.gallery-item {
+    height: 17%;
+    width: 28%;
+    float: left;
+    margin-bottom: 4em;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+    .gallery-item:first-child {
+        margin-right: 0;
+    }
+
+.gallery-item img {
+    width: 100%;
+}
+
+.gallery-item:hover .img-title {
+    opacity: 1;
+}
+
+.img-title {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    display: none; /* comment this out for CSS hover */
+    background-color: rgba(51, 51, 51, 0.63);
+    /* transition: all 0.5s ease; */
+}
+
+    .img-title h3 {
+        position: absolute;
+        color: #fff;
+        top: 33%;
+        width: 100%;
+        text-align: center;
+    }
+.chessPic{
+    width: 20%;
+    height: 15%;
+    float: left;
+    margin: 30px 10px 10px 30px;
+}
+.caption{
+    background-color: black;
+    color: gold;
+    font-family: 'Roboto';
+    font-size: 1em;
+    margin-top: 5px;
+}
+.insideContent{
+    background-color: black;
+    float: left;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    border-radius: 15px;
+    padding: 10px 30px 30px 30px;
+    width: 60%;
+    margin: 15px 15px 15px 15px;
+    text-align: justify;
+}
+#insideLowerContent{
+    background-color: black;
+    float: left;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    border-radius: 15px;
+    padding: 10px 30px 30px 30px;
+    width: 60%;
+    margin: 40px 15px 15px 20%;
+    text-align: justify;
+}
+.questInt{
+    color: gold;
+    font-family: 'Rhodium Libre';
+    font-size: 1.4em;
+    ;
+}
+.interestWhiteSpace{
+    background-color: transparent;
+    position: relative;
+    top: 36.5rem;
+    width: 100%;
+    height: 50%;
+}
+#hyperlink{
+    color: gold;
+}
+#hyperlink:hover{
+    color: goldenrod;
+}
+#footerInterest{
+    top: 36.5em;
+    background-color: black;
+    color: gold;
+    width: 100%;
+    margin: 0px 0px 0px 0px ;
+    height: 20%;
+    position: relative;
+}
+/* untuk halaman my project */
+#projectOP{
+    color: gold;
+    text-align: center;
+    font-family: 'Righteous';
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 22%;
+}
+.contentProject{
+    background-color: gold;
+    position: relative;
+    top: 36.5rem;
+    width: 100%;
+    height: 70%;
+    padding: 10px 10px 10px 10px;
+}
+.subTitlePro{
+    background-color: black;
+    width: 95%;
+    margin: 15px 15px 15px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Hepta Slab';
+    font-size: 1.5em;
+    color: gold;
+}
+#sideVideo{
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin-left: 15px;
+}
+.sideGalleryPro{
+    float: left;
+    width: 20%;
+    height: 60%;
+    margin: 10px 25px 10px 50px;
+}
+.insideContentPro{
+    background-color: black;
+    float: left;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px;
+    width: 60%;
+    margin: 15px 15px 15px 15px;
+}
+.contentProVid{
+    background-color: gold;
+    position: relative;
+    top: 36.5rem;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+.projectVideo{
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+}
+.insideVideo{
+    width: 70%;
+    height: 70%;
+    margin: 15px 15px 15px 15px;
+}
+.projectWhiteSpace{
+    background-color: transparent;
+    position: relative;
+    top: 36.5rem;
+    width: 100%;
+    height: 50%;
+
+}
+#footerProject{
+    top: 36.5em;
+    background-color: black;
+    color: gold;
+    width: 100%;
+    margin: 0px 0px 0px 0px ;
+    height: 20%;
+    position: relative;
+}
+/* untuk halaman galeri */
+#galleryOP{
+    color: gold;
+    text-align: center;
+    font-family: 'Courgette';
+    font-size: 3em;
+    margin-top: 22%;
+    text-align: center;
+}
+.galleryContent{
+    background-color: gold;
+    width: 100%;
+    height: 47%;
+    top: 37rem;
+    position: relative;
+    z-index: 9;
+    float: left;
+}
+.blackBox{
+    background-color: black;
+    border-radius: 15px;
+    float: left;
+    width: 20%;
+    height: 70%;
+    margin: 30px 10px 25px 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+img{
+    width: 96%;
+    height: 97.5%;
+}
+.sideimg{
+    width: 90%;
+    height: 95%;
+}
+.sideGallery{
+    background-color: gold;
+    float: left;
+    position: relative;
+    width: 26%;
+    height: 43%;
+    top: 37rem;
+    margin-left: 0px;
+}
+.sideBlackbox{
+    background-color: black;
+    border-radius: 15px;
+    margin: 0px 10px 15px 25px;
+    width: 85%;
+    height: 85%;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+}
+.whiteSpaceGallery{
+    background-color: transparent;
+    float: left;
+    width: 48%;
+    height: 25%;
+    margin: 0px 0px 0px 0px;
+}
+
+.gallery-format {
+    width: 100%;
+    height: 97.5%;
+    position: relative;
+}
+
+.gallery-format:hover .img-title {
+    opacity: 1;
+}
+
+.gallery-title {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    margin-left: 0.3em;
+    width: 96.5%;
+    height: 97.5%;
+    text-align: center;
+    opacity: 1;
+    display: none; /* comment this out for CSS hover */
+    background-color: rgba(51, 51, 51, 0.63);
+    /* transition: all 0.5s ease; */
+}
+
+    .gallery-title h3 {
+        position: absolute;
+        color: #fff;
+        top: 33%;
+        width: 100%;
+        text-align: center;
+    }
+#footerGallery{
+    background-color: black;
+    color: gold;
+    width: 100%;
+    float: left;
+    margin: 0px 0px 0px 0px ;
+    height: 20%;
+}
+/* Untuk halaman  contact*/
+#textContact{
+    color: gold;
+    text-align: center;
+    font-family: 'Hepta Slab';
+    font-size: 3em;
+    margin-top: 20%;
+    text-align: center;
+}
+.daftarContact{
+    background-color : gold;
+    width: 100%;
+    top: 37rem;
+    position: relative;
+    float: left;
+    z-index: 9;
+    text-align: center;
+}
+.subTitle{
+    font-family: 'Hepta Slab';
+    background-color: black;
+    color: gold;
+    font-size: 1.8em;
+    padding: 5px 5px 5px 5px;
+    margin : 15px 15px 15px 15px;
+    text-align: center;
+}
+#groupContactline{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: lime;
+    font-family: 'Roboto'; 
+    border: thick solid black;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    font-weight:bold;
+}
+#groupContactWA{
+    float: left;
+    margin-left: 10%;
+    font-size: 1.2em;
+    color: rgb(37, 177, 72);
+    font-family: 'Roboto';
+    border: thick solid black;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    font-weight:bold;
+}
+#groupContactInsta{
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: rgb(194, 59, 194);
+    font-family: 'Roboto';
+    border: thick solid black;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    background-color:black;
+    padding: 5px 5px 5px 5px;
+    font-weight:bold;
+}
+.gambarContact{
+    width: 50%;
+    height: 30%;
+}
+.gambarCode{
+    width: 100%;
+    height: 80%;
+}
+.whiteSpaceContact{
+    background-color: transparent;
+    width: 96%;
+    height: 50%;
+    position: relative;
+    float: left;
+    z-index: 9;
+}
+#groupGmail{
+    float: left;
+    margin-left: 14%;
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: tomato;
+    font-family: 'Roboto';
+    border: thick solid black;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    background-color:black;
+    padding: 5px 5px 5px 5px;
+    font-weight:bold;
+}
+#groupYahoo{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: mediumslateblue;
+    font-family: 'Roboto';
+    border: thick solid black;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    background-color:black;
+    padding: 5px 5px 5px 5px;
+    font-weight:bold;
+}
+.email{
+    margin-top: 15px;
+    width: 50%;
+    height: 20%;
+}
+.ymail{
+    margin-top: 15px;
+    width: 55%;
+    height: 17%;
+}
+.formatButton{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.sendButton{
+    background-color: black;
+    border: solid gold;
+    color: gold;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 5px 5px 5px 5px;
+}
+.sendButton:hover{
+    background-color: white;
+    color: black;
+}
+#formContact{
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    width: 60%;
+}
+#formatForm{
+    background-color: white;
+    width: 70%;
+    text-align: left;
+    padding: 15px 5px 10px 20px;
+    margin-left: 15%;
+}
+textarea{
+    width: 90%;
+    height: 20%;
+}
+#formButton{
+    margin-left: 80%;
+}
+@media screen and (max-width: 1030px) {
+    header{
+        height: 150px;
+    }
+    .garisKedua{
+        display: block;
+        margin-top: 150px;
+    }
+    #opening{
+        font-size: 2em;
+        margin-top: 4.5em;
+    }
+    #textContact{
+        margin-top: 18rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header{
+        height: 200px;
+    }
+    .garisKedua{
+        display: block;
+        margin-top: 200px;
+    }
+    #opening{
+        font-size: 2em;
+        margin-top: 5em;
+    }
+    #tulisanHans{
+        color: gold; 
+        font-size: 1em;
+    }
+    #profile{
+        margin-top: 15px;
+        margin-left: 60px;
+        width: 60%;
+        font-size: 0.8em;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-top: 1.5px;
+        margin-bottom: 25px;
+        border-radius: 15px;
+    }
+    #intro{
+        width: 75%;
+        height: 35%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    #formatGambarprof{
+        margin-left: 0%;
+        width: 40%;
+        height: 60%;
+        float: none;
+        display: inline-block;
+    }
+    #intro1{
+        float: none;
+        width: 60%;
+        margin-left: 10px;
+        margin-top: 15px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        font-size: 0.83em;
+        text-align: center;
+        display: inline-block;
+    }
+
+}
+@media screen and (max-width: 650px) {
+    header{
+        height: 250px;
+    }
+    .garisKedua{
+        display: block;
+        margin-top: 20rem;
+    }
+    .nav1{
+        margin: 10px 5px;
+    }
+    .garisKedua{
+        display: block;
+        margin-top: 250px;
+    }
+    footer{
+        top: 43rem;
+        width: 100%;
+        height: 20%;
+    }
+    .gambarFooter{
+        width: 15%;
+        margin-top: 5px;
+    }
+    .gambarFooter2{
+        width: 15%;
+        margin-top: 5px;
+        margin-right: 20%;
+    }
+    .topBtn{
+        width: 12%;
+    }
+    /* Home */
+    #opening{
+        font-size: 1.5em;
+        margin-top: 15rem;
+        margin-left: 0px;
+    }
+    #intro{
+        width: 75%;
+        height: 35%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    #formatGambarprof{
+        margin-left: 0%;
+        width: 50%;
+        height: 50%;
+        float: none;
+        display: inline-block;
+    }
+    #gambarIntro{
+        width: 100%;
+        height: 100%;
+    }
+    #intro1{
+        float: none;
+        width: 80%;
+        margin-left: 10px;
+        margin-top: 15px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        font-size: 0.83em;
+        text-align: center;
+        display: inline-block;
+    }
+    .content{
+        width: 100%;
+        position: relative;
+        top: 43rem;
+        float: left;
+        text-align: center;
+    }
+    #profile{
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 90%;
+        z-index: 8;
+        font-size: 1.8em;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    #gambarProfile{
+        width:60%;
+        height:30%;
+        display: inline-block;
+    }
+    
+    #art1{
+        display: inline-block;
+        background-color: white;
+        font-family: Roboto;
+        color: black;
+        float: none;
+        font-size: 0.5em;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 80%;
+        text-align: left;
+    }
+    .profilTambahan{
+        display: inline-block;
+        margin: 0px 0px 30px 0%;
+        float: none;
+        text-align: center;
+        width: 40%;
+        height: 25%;
+    }
+    
+    .gambarCV{
+        width: 80%;
+        height: 80%;
+        background-color: white;
+        padding: 5px 5px 5px 5px;
+    }
+    /* Contact */
+    #textContact{
+        font-size: 1.5em;
+        margin-top: 25rem;
+    }
+    .daftarContact{
+        width: 101%;
+        top: 35rem;
+    }
+    .subTitle{
+        margin-right : 5px;
+        margin-left: 7.5px;
+        width: 90%;
+    }
+    #groupContactline{
+        margin-left: 7.5%;
+        width: 80%;
+
+    }
+    #groupContactWA{
+        margin-left: 7.5%;
+        width: 80%;
+    }
+    #groupContactInsta{
+        margin-left: 7.5%;
+        width: 80%;
+    }
+    .gambarContact{
+        height: 20%;
+    }
+    .gambarCode{
+        height: 60%;
+    }
+    .whiteSpaceContact{
+        height: 40%;
+    }
+    #groupGmail{
+        margin-left: 7.5%;
+        margin-bottom: 15px;
+        font-size: 1em;
+        width: 80%;
+    }
+    #groupYahoo{
+        margin-left: 7.5%;
+        font-size: 1em;
+        width: 80%;
+    }
+    .email{
+        height: 12%;
+    }
+    .ymail{
+        height: 10%;
+    }
+    #formContact{
+        padding: 5px 5px 5px 5px;
+        margin-left: 8%;
+        width: 80%;
+    }
+    #formatForm{
+        width: 85%;
+        margin-left: 3.5%;
+    }
+    @media screen and (max-width: 360px) {
+        .posisihead1{
+            margin-left: 10px;
+        }
+        #intro{
+            width: 80%;
+            height: 45%;
+            margin-left: 10%;
+            text-align: center;
+        }
+        #intro1{
+            float: none;
+            width: 80%;
+            margin-left: 0px;
+            font-size: 0.83em;
+            text-align: center;
+            display: inline-block;
+        }
+        .content{
+            width: 100%;
+            position: relative;
+            top: 43rem;
+            float: left;
+            text-align: center;
+        }
+        .profilTambahan{
+            height: 27%;
+        }
+        .daftarContact{
+            top: 43rem;
+        }
+        footer{
+            top: 43rem;
+            width: 100%;
+            height: 25%;
+        }
+    }
+}

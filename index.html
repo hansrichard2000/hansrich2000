@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title>Hans Personal Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="Personal web asset/Logo hitam.png" sizes="32x32">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Hepta Slab' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<body>
+    <div class="divutama">
+        <div class="navBar">
+            <h2 class="menu">Menu</h2>
+            <button class="pageButton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></button>
+        </div>
+        <div class="menuItem">
+            <p><a href="index.html"> Home </a></p>
+            <p><a href="myInterest.html"> My Interest </a></p>
+            <p><a href="myProject.html"> My Project </a></p>
+            <p><a href="gallery.html"> Gallery</a></p>
+            <p><a href="contact.html"> Contact </a></p>
+        </div>
+        <header>
+            <div class="posisiLogo">
+                <img class="logo" src="Personal web asset/Logo hitam.png" >
+            </div>
+            <div class="posisihead1">
+                Hans'<br> Personal Website
+            </div>
+            <nav class="posisihead2">
+                <ul type="none" class="nav1">
+                    <li class="nav1"><a class="tuanRumah" href="index.html">Home</a></li>
+                    <li class="nav1"><a class="pendatang" href="myInterest.html">My Interest</a></li>
+                    <li class="nav1"><a class="pendatang" href="myProject.html">My Project</a></li>
+                    <li class="nav1"><a class="pendatang" href="gallery.html">Gallery</a></li>
+                    <li class="nav1"><a class="pendatang" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <hr class="garisKedua">
+        <a name="top"></a>
+        <div class="banner">
+            <div id="opening">
+                <p>
+                    <br>Introducing . . .
+                </p>
+            </div>
+            <div id="intro">
+                <div id="formatGambarprof"><img id="gambarIntro" src="Personal web asset/20200208_234641.png"></div>
+                <div id="intro1">
+                    <div id="tulisanHans">
+                        HANS
+                    </div>
+                    <br>
+                    <div>
+                        a Student of Informatics at Universitas<br>Ciputra. Ready to learn and work hard<br>to reach a
+                        great achievement.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content"><br>
+            <section id="profile">
+                <p>My Profile</p>
+                <img id="gambarProfile" src="Personal web asset/Foto Kartu Mahasiswa.jpg">
+                <div id="art1">
+                    <ol>
+                        <li>Full name&emsp;&ensp;&ensp;&nbsp;: Hans Richard Alim Natadjaja</li>
+                        <li>Nickname&emsp;&emsp;: Hans</li>
+                        <li>Date of Birth&emsp;: Surabaya, 7 November 2000</li>
+                        <li>Religion&emsp;&emsp;&ensp;&nbsp; : Katholik</li>
+                        <li>Hobby&emsp;&emsp;&emsp;&ensp;&nbsp;: Chess, Swimming</li>
+                    </ol>
+                </div>
+            </section>
+            <a href="https://drive.google.com/file/d/1ZY5wShWe8HJa5Zd4Qvw8koPXwzFsDbrT/view?usp=sharing"><div class="profilTambahan">
+                <div>
+                    <img class="gambarCV" src="Personal web asset/img_454002.png">
+                </div>
+                <div>Curriculum Vitae</div>
+            </div></a>
+        </div>
+        <br>
+        <footer>
+            <div class="inFooter">
+                <a href="#top"><button class="topBtn" title="Go to top">Top</button><br><br></a>
+                <hr class="garisFooter">
+                <p class="Copyright">© Copyright 2020, Hans Richard Alim Natadjaja</p>
+                <a href="https://www.instagram.com/hansrich2000/"><img class="gambarFooter2"
+                        src="Personal web asset/new-instagram-logo-png-transparent-light.png"></a>
+                <a href="https://www.linkedin.com/in/hans-richard-alim-natadjaja-ba39a4193/"><img
+                        class="gambarFooter" src="Personal web asset/1024px-Linkedin_icon.svg.png"></a>
+                <a href="mailto:hansrichard2000@gmail.com"><img class="gambarFooter"
+                        src="Personal web asset/logo-1162901_1920.png"></a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        $(".menuItem p").hide();
+        $(".navBar .pageButton").click(
+
+            function () {
+
+            $(".menuItem p").slideToggle("slow");
+
+            }
+
+        );
+    </script>
+</body>
+
+</html>
